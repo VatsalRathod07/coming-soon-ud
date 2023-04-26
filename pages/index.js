@@ -14,7 +14,7 @@ const ComingSoon = () => {
         <link rel="icon" href="../fav.svg" />
       </Head>
       <div className="container background mx-auto flex flex-col md:flex-row h-screen md:max-h-screen justify-center items-center gap-4 bg-black">
-      <video src="../ud.mp4" alt="coming soon" className="w-full md:w-half h-full" muted={false} autoPlay={true} loop preload controls={true}/>
+      <video src="../ud.mp4" alt="coming soon" className="w-full md:w-half h-full" muted autoPlay loop preload/>
         <div className="container bg-white background mx-auto flex flex-col h-full justify-center items-center">
           <h1 className="text-4xl font-bold mb-6 tracking-wider font-Comfortaa mt-4">Coming Soon</h1>
           <CountdownTimer/>
