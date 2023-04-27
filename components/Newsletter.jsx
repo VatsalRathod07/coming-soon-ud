@@ -47,8 +47,8 @@ const NewsLetter = () => {
             Subscribe
             </button>
           </form>
-          {error && <p className="text-xs text-red-500 font-medium text-center mt-2">Please enter valid email</p>}
-          {showSuccessMessage && <p className='text-base font-medium text-center mt-2'>you're Subscribed</p>}
+              {error && <p className="text-sm p-1 bg-ligthblack-0 text-red-500 font-medium text-center mt-2">Please enter valid email</p>}
+              {showSuccessMessage && <p className='text-base font-medium text-center mt-2 bg-ligthblack-0 text-darkwhite-0 p-1'>you're Subscribed</p>}
     </div>
   )
 }
