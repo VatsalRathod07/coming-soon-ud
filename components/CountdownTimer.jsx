@@ -7,7 +7,7 @@ const Timer = () => {
   useEffect(() => {
     const interval = setInterval(() => {
       const end = new Date();
-      end.setHours(12, 0, 0, 0);
+      end.setHours(17, 0, 0, 0);
       const now = new Date();
       const diff = end.getTime() - now.getTime();
 
