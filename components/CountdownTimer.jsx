@@ -6,7 +6,8 @@ const Timer = () => {
 
   useEffect(() => {
     const interval = setInterval(() => {
-      const end = new Date("2023-05-01T12:00:00Z"); // replace with your end time
+      const end = new Date();
+      end.setHours(12, 0, 0, 0);
       const now = new Date();
       const diff = end.getTime() - now.getTime();
 
